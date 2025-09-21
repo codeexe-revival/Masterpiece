@@ -1,0 +1,59 @@
+/* Bank Transfer Card */
+.bank-details {
+    background: rgba(255, 215, 0, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 8px;
+    padding: 1rem;
+    margin: 1.5rem 0;
+    text-align: left;
+}
+
+.detail-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.8rem;
+    flex-wrap: wrap;
+}
+
+.detail-label {
+    font-weight: 600;
+    color: var(--purple);
+    min-width: 120px;
+}
+
+.detail-value {
+    font-family: monospace;
+    background: rgba(0,0,0,0.03);
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    flex: 1;
+}
+
+.copy-btn {
+    background: var(--purple);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 0.3rem 0.6rem;
+    margin-left: 0.5rem;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.copy-btn:hover {
+    background: #4a2db3;
+}
+
+.security-notice {
+    display: flex;
+    gap: 0.5rem;
+    background: rgba(93, 63, 211, 0.05);
+    border-left: 3px solid var(--purple);
+    padding: 0.8rem;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+.security-notice i {
+    color: var(--purple);
+}
